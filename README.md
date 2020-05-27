@@ -82,9 +82,10 @@ Pada soal “Is This Crypto?” kita diberikan cipher teks. Untuk dapat menemuka
 
 ### RSABC
 Pada soal RSABC kita diberikan cipherteks (c), totient (n), dan public exponent (e). Saya menggunakan RsaCTFTools pada python untuk mendapatkan flagnya. Command line yang dapat kita inputkan ke terminal yaitu sebagai berikut:
-Python3 RsaCTFTools.py –n 57772961349879658023983283615621490728299498090674385733830087914838280699121
+```sh
+python3 RsaCTFTools.py –n 57772961349879658023983283615621490728299498090674385733830087914838280699121
  -e 65537 –-uncipher 36913885366666102438288732953977798352561146298725524881805840497762448828130
-
+```
 Setelah itu flagnya akan ditemukan. Flagnya yaitu tjctf{BOLm1QMWi3c}
 
 ### Gamer W
